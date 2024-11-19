@@ -77,11 +77,14 @@ WSGI_APPLICATION = 'python_vercel_task.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'python_vercel_task',
-        'USER': 'sample_user',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'postgres',
+        'USER': 'postgres.tocgojyydvuftyfozlbr',
+        'PASSWORD': 'aosindgoiawsn2154',
+        'HOST': 'aws-0-us-east-1.pooler.supabase.com',
+        'PORT': '6543',
+        'OPTIONS': {
+            'client_encoding': 'UTF8',
+        },
     }
 }
 
